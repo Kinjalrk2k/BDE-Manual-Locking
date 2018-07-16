@@ -25,4 +25,4 @@ if '%errorlevel%' NEQ '0' (
     CD /D "%~dp0"
 :--------------------------------------
 
-manage-bde -lock e: -forcedismount
+manage-bde -lock <drive_letter>: -forcedismount
